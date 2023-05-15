@@ -8,10 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00CA9C1855345936F8CC6C1BE51208C6 /* dktMocks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADB6424FDA4BA312F3859846F98529D /* dktMocks-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58600BD82A122D080077EF76 /* CLDeviceRemoteMockParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58600BD42A122D080077EF76 /* CLDeviceRemoteMockParser.swift */; };
-		58600BD92A122D080077EF76 /* CLDeviceRemoteStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58600BD52A122D080077EF76 /* CLDeviceRemoteStatus.swift */; };
-		58600BDA2A122D080077EF76 /* CLDeviceRemoteMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58600BD62A122D080077EF76 /* CLDeviceRemoteMock.swift */; };
-		58600BDB2A122D080077EF76 /* CLDeviceRemoteMockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58600BD72A122D080077EF76 /* CLDeviceRemoteMockModel.swift */; };
+		58600BDD2A12314C0077EF76 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 58600BDC2A12314C0077EF76 /* Classes */; };
 		58B0F9720884E79D3A9028A0B85313C9 /* Pods-dktMocks_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63F29893A58C237FAB6FC5C5C7E157E2 /* Pods-dktMocks_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A99278A3CFBD48D9BBA82CC6A7E75CE /* dktMocks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D998610A277B37DB97C35EC00D27390 /* dktMocks-dummy.m */; };
 		AB60E5CC18F314279E92FEAD947A892A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -38,10 +35,7 @@
 		440BA2F9A92F2FC8401E19B657497466 /* dktMocks-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "dktMocks-Info.plist"; sourceTree = "<group>"; };
 		4F210E714BE6FC3AB6040245604B48F2 /* Pods-dktMocks_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dktMocks_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		53537525E7F12D7CB84770D077283CF4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		58600BD42A122D080077EF76 /* CLDeviceRemoteMockParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLDeviceRemoteMockParser.swift; sourceTree = "<group>"; };
-		58600BD52A122D080077EF76 /* CLDeviceRemoteStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLDeviceRemoteStatus.swift; sourceTree = "<group>"; };
-		58600BD62A122D080077EF76 /* CLDeviceRemoteMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLDeviceRemoteMock.swift; sourceTree = "<group>"; };
-		58600BD72A122D080077EF76 /* CLDeviceRemoteMockModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLDeviceRemoteMockModel.swift; sourceTree = "<group>"; };
+		58600BDC2A12314C0077EF76 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Classes; path = dktMocks/Classes; sourceTree = "<group>"; };
 		63F29893A58C237FAB6FC5C5C7E157E2 /* Pods-dktMocks_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-dktMocks_Tests-umbrella.h"; sourceTree = "<group>"; };
 		65E08C3E45AB669F30ABB3B9336E8009 /* Pods-dktMocks_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-dktMocks_Tests.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -138,10 +132,7 @@
 		9B3A0E5E8266A3F1CC29B29400487AEA /* dktMocks */ = {
 			isa = PBXGroup;
 			children = (
-				58600BD62A122D080077EF76 /* CLDeviceRemoteMock.swift */,
-				58600BD72A122D080077EF76 /* CLDeviceRemoteMockModel.swift */,
-				58600BD42A122D080077EF76 /* CLDeviceRemoteMockParser.swift */,
-				58600BD52A122D080077EF76 /* CLDeviceRemoteStatus.swift */,
+				58600BDC2A12314C0077EF76 /* Classes */,
 				B7BE55464AECC79C5C219CA8C818EB9F /* Pod */,
 				0F562986A0F27C8C13665530CFD650C3 /* Support Files */,
 			);
@@ -279,6 +270,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58600BDD2A12314C0077EF76 /* Classes in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,11 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58600BDB2A122D080077EF76 /* CLDeviceRemoteMockModel.swift in Sources */,
-				58600BD92A122D080077EF76 /* CLDeviceRemoteStatus.swift in Sources */,
-				58600BD82A122D080077EF76 /* CLDeviceRemoteMockParser.swift in Sources */,
 				6A99278A3CFBD48D9BBA82CC6A7E75CE /* dktMocks-dummy.m in Sources */,
-				58600BDA2A122D080077EF76 /* CLDeviceRemoteMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
