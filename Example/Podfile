@@ -1,0 +1,6 @@
+use_frameworks!
+target 'dktMocks_Tests' do
+  pod 'dktMocks', :path => '../'
+  
+  
+end
