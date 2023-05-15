@@ -1,0 +1,16 @@
+PODS:
+  - dktMocks (0.1.0)
+
+DEPENDENCIES:
+  - dktMocks (from `../`)
+
+EXTERNAL SOURCES:
+  dktMocks:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  dktMocks: f21f83361dea3aaf39b87aea39cd27a4dc68397a
+
+PODFILE CHECKSUM: b755e8e057fd07dc2aed9fe85bf67ef8d1377083
+
+COCOAPODS: 1.11.3

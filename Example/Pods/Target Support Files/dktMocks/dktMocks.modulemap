@@ -1,0 +1,6 @@
+framework module dktMocks {
+  umbrella header "dktMocks-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "dktMocks",
+  "version": "0.1.0",
+  "summary": "A short description of dktMocks.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/julien.guerin30@gmail.com/dktMocks",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "julien.guerin30@gmail.com": "julien.guerin@capgemini.com"
+  },
+  "source": {
+    "git": "https://github.com/julien.guerin30@gmail.com/dktMocks.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "14.0"
+  },
+  "source_files": "dktMocks/Classes/**/*"
+}
